@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="container" id="c1">
+      <header>
+          <nav class="navbar">
+              <a href="#profile">Profile</a>
+              <a href="#education">Education</a>
+              <a href="#trainings">Trainings</a>
+              <a href="#contact">Contact</a>
+          </nav>
+      </header>
+
+      <section id="profile">
+        <div class="profile-detail">
+            <h1>Erl John Venice A. Empleo</h1>
+            <h2>Computer Engineering Technology Student</h2>
+            <h2>CITE Technical Institute Inc.</h2>
+              <div class="download-resume">
+                <button class="dl-btn">Download Resume</button>
+              </div>
+        </div> 
+        <div class="img-box">         
+          <img src="assets/imgs/img-profile.jpeg" alt="profile-image">
+        </div> 
+      </section>
+
+  </div>
+
+  <div class="container" id="c2">
+      <section id="education">
+        
+        <h1> EDUCATION </h1>
+
+        <div class="education-item">
+          <img src="assets/imgs/cite.jpg" alt="School 1" class="school-image" />
+          <div class="school-info">
+            <h3>CITE Technical Institute Inc.</h3>
+            <p>San Jose, Talamban, Cebu City, Cebu</p>
+            <p>2023 - Present</p>
+          </div>
+        </div>
+
+        <div class="education-item">
+          <img src="assets/imgs/act.jpg" alt="School 2" class="school-image" />
+          <div class="school-info">
+            <h3>Asian College of Technology - Bulacao Campus</h3>
+            <p>Brgy. Bulacao, Talisay City, Cebu</p>
+            <p>2021 - 2023</p>
+          </div>
+        </div>
+
+        <div class="education-item">
+          <img src="assets/imgs/divino.jpg" alt="School 3" class="school-image" />
+          <div class="school-info">
+            <h3>Divino Amore Academy</h3>
+            <p>Mohon, Talisay City, Cebu</p>
+            <p>2017 - 2021</p>
+          </div>
+        </div>
+
+        <div class="education-item">
+          <img src="assets/imgs/lawaan.jpeg" alt="School 4" class="school-image" />
+          <div class="school-info">
+            <h3>Lawaan Elementary School</h3>
+            <p>Lawaan 1, Talisay City, Cebu</p>
+            <p>2012 - 2017</p>
+          </div>
+        </div>
+    
+      </section>
+  </div>
+
+  <div class="container">
+    <section id="trainings">
+      <h1>Trainings</h1>
+          <div class="image-card">
+              <img src="assets/imgs/alliance.jpg" alt="Training 1">
+              <div class="info">
+                <h3>Alliance Low Code Training Program</h3>
+                <p>Alliance Software Inc.., a global leader in IT services and software development, has introduced a Low-Code programming course for 34 Diploma in Computer Engineering Technology students and alumni from CITE. Running from August 31 to December 20, 2024, the program aims to equip participants with essential software development skills, focusing on the growing demand for Low-Code platforms in tech industries.</p>
+              </div>
+          </div>
+    </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea id="message" placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="social-links">
+        <a href="mailto:erljohnempleo211@gmail.com" target="_blank">
+          <i class="fab fa-google"></i> Gmail
+        </a>
+        <a href="https://www.linkedin.com/in/erl-john-venice-empleo-248563365/" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/empsjohn" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <p>Thank you! Your message has been sent.</p>
+          <button id="closeModal">Close</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <button id="topBtn">↑</button>
+  
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
