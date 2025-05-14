@@ -41,9 +41,9 @@ header {
   justify-content: flex-end;
   position: absolute;
   top: 8%;
-  right: 5%;
+  right: 2%;
   width: 100%;
-  padding: 25px 5%;
+  padding: 25px 6%;
 }
 
 .navbar {
@@ -191,12 +191,10 @@ header {
 }
 
 #trainings h1 {
-  font-size: 55px;
-  color: var(--primary-color);
   margin-bottom: 30px;
 }
 
-#trainings h3 {
+#trainings h3, #projects h3 {
   color: var(--primary-color);
   margin-bottom: 10px;
 }
@@ -234,6 +232,25 @@ header {
 .image-card:hover .info {
   opacity: 1;
 }
+
+/*Projects*/
+
+#projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#projects h1 {
+  margin-bottom: 30px;
+}
+
+
+
 
 /*CONTACT*/
 
@@ -366,5 +383,3 @@ header {
   background: violet;
   color: black;
 }
-
-
