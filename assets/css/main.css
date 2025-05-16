@@ -383,3 +383,125 @@ header {
   background: violet;
   color: black;
 }
+
+/*RESPONSIVE SCREEN*/
+
+@media (max-width: 1024px) {
+  header {
+    justify-content: center;
+    position: static;
+    padding: 20px 0;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .image-card {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .image-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image-card .info {
+    position: static;
+    opacity: 1 !important;
+    background: transparent;
+    padding: 10px 0;
+    color: var(--text-color);
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2, .profile-detail h2 {
+    font-size: 1rem;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+  }
+
+  .profile-detail, .img-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .img-box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .education-item {
+    padding: 1rem;
+  }
+
+  .school-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  #contactForm input,
+  #contactForm textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .dl-btn,
+  #contact button,
+  .modal-content button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2, .profile-detail h2, .school-info p {
+    font-size: 0.9rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-card {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .img-box {
+    width: 140px;
+    height: 140px;
+  }
+
+  #topBtn {
+    font-size: 18px;
+    padding: 10px 16px;
+    bottom: 15px;
+    right: 10px;
+  }
+
+  .social-links a {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #contact h2 {
+    font-size: 28px;
+  }
+}
